@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement; 
+
+public class TrackMenu : MonoBehaviour
+{
+    public void LoadTrack1 ()
+    {
+        SceneManager.LoadScene(1);
+    }
+   
+}
